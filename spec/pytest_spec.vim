@@ -47,6 +47,11 @@ describe "PyTest"
     TestNearest
 
     Expect g:test#last_command == 'pytest test_method.py::test_foo'
+
+    view +7 test_widget.py
+    TestNearest
+
+    Expect g:test#last_command == 'pytest test_widget.py::DefaultWidgetSizeTestCase::test_widget'
   end
 
   it "runs file test if nearest test couldn't be found"
