@@ -6,5 +6,3 @@ class SimpleWidgetTestCase(unittest.TestCase):
 class DefaultWidgetSizeTestCase(SimpleWidgetTestCase):
     def test_widget(self):
         pass
-
-# Should result in DefaultWidgetSizeTestCase:test_widget
