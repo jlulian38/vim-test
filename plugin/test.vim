@@ -31,6 +31,7 @@ call s:extend(g:test#runners, {
   \ 'Perl':       ['Prove'],
   \ 'Racket':     ['RackUnit'],
   \ 'Java':       ['MavenTest'],
+  \ 'Scala':      ['GradleTest'],
   \ 'Crystal':    ['CrystalSpec'],
 \})
 
